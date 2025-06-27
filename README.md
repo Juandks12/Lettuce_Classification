@@ -23,4 +23,4 @@ mAP50: ~XX%
 
 Visualización de inferencia:
 
-<p align="center"> <img src="ruta/a/ejemplo_resultado.jpg" alt="Ejemplo de predicción" width="500"/> </p>
+<p align="center"> <img src="predicciones/prediccion_20250521_103848.jpg" alt="Ejemplo de predicción" width="500"/> </p>
