@@ -16,11 +16,26 @@ Utilizando un dataset propio de imágenes de lechugas etiquetadas, se entrena un
 - **LabelImg** para la anotación de imágenes
 - VsCode
 
+### Ejemplo de uso:
+
+```python
+from ultralytics import YOLO
+
+# Cargar el modelo entrenado
+model = YOLO('best.pt')
+
+# Realizar inferencia en una imagen nueva
+results = model('ruta/a/imagen.jpg', conf=0.25)
+
+# Mostrar resultados
+results.show()
+
 📊 Resultados
-Precisión: ~XX% (actualizar cuando tengas los resultados)
-
-mAP50: ~XX%
-
-Visualización de inferencia:
+Visualización de inferencia (Healthy Lettuce):
 
 <p align="center"> <img src="predicciones/prediccion_20250521_103848.jpg" alt="Ejemplo de predicción" width="500"/> </p>
+
+🙋‍♂️ Autor
+Juan Peña
+
+Estudiante de Ingeniería de Software
